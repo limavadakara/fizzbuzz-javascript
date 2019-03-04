@@ -19,4 +19,10 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(2)).toEqual(2);
 
   });
+
+  it('returns an error when passed an input that is not a number', function() {
+    expect(fizzBuzz("Hello")).toEqual("This is not a number. Please enter numbers only");
+
+  });
+
 });
