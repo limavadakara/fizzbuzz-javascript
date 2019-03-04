@@ -9,4 +9,9 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(5)).toEqual("Buzz");
 
   });
+
+  it('prints fizzbuzz when given 15', function() {
+    expect(fizzBuzz(15)).toEqual("FizzBuzz");
+
+  });
 });
