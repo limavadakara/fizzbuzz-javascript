@@ -8,5 +8,8 @@ function fizzBuzz(number) {
   else if (number % 5 == 0) {
     return "Buzz";
   }
+  else {
+    return number;
+  }
 
 }
